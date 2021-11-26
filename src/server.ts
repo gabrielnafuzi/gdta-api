@@ -4,4 +4,10 @@ const app = express()
 
 const PORT = 3333
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+app.get('/', (req, res) => {
+  return res.json({ message: 'Hello World' })
+})
+
+app.listen(PORT, () =>
+  console.log(`Server running on http://localhost:${PORT}`)
+)
