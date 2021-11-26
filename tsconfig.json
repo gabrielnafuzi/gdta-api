@@ -3,6 +3,10 @@
     "outDir": "./dist",
     "module": "commonjs",
     "target": "es2020",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    },
     "esModuleInterop": true,
     "allowJs": true,
     "strictNullChecks": true
