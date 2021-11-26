@@ -1,0 +1,11 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "GD Talent Acquisition Docs",
+    "description": "Documentation for the GD Talent Acquisition API",
+    "version": "1.0.0",
+    "contact": {
+      "email": "gabriel.henmoraes@gmail.com"
+    }
+  }
+}
