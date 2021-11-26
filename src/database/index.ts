@@ -1,3 +1,13 @@
-import { createConnection } from 'typeorm'
+import { createConnection, getConnectionOptions } from 'typeorm'
 
-createConnection()
+type Options = {
+  host: string
+}
+
+getConnectionOptions().then((options) => {
+  const newOptions = options as Options
+  newOptions.host = 'database'
+  createConnection({
+    ...options
+  })
+})
