@@ -1,13 +1,13 @@
 import { createConnection, getConnectionOptions } from 'typeorm'
 
-type Options = {
+interface Options {
   host: string
 }
 
-getConnectionOptions().then((options) => {
+void getConnectionOptions().then((options) => {
   const newOptions = options as Options
+
   newOptions.host = 'database'
-  createConnection({
-    ...options
-  })
+
+  void createConnection({ ...options })
 })

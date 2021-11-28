@@ -1,20 +1,21 @@
+import 'reflect-metadata'
 import express from 'express'
 import swaggerUi from 'swagger-ui-express'
-import swaggerDocument from './swagger.json'
+
+import '@/shared/container'
+import { router } from '@/routes'
+import swaggerDocument from '@/swagger.json'
 
 import '@/database'
 
+const PORT = 3333
 const app = express()
 app.use(express.json())
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
-const PORT = 3333
+app.use(router)
 
-app.get('/', (req, res) => {
-  return res.json({ message: 'Hello World' })
-})
+app.get('/', (req, res) => res.json({ message: 'Hello World' }))
 
-app.listen(PORT, () =>
-  console.log(`Server running on http://localhost:${PORT}`)
-)
+app.listen(PORT, () => console.log('Server is running'))
