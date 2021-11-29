@@ -1,14 +1,15 @@
 import 'reflect-metadata'
-import express, { Request, Response, NextFunction } from 'express'
+import express, { Request, Response } from 'express'
 import 'express-async-errors'
 import swaggerUi from 'swagger-ui-express'
 
 import '@/shared/container'
+import { createConnection } from '@/database'
 import { AppError } from '@/errors'
 import { router } from '@/routes'
 import swaggerDocument from '@/swagger.json'
 
-import '@/database'
+createConnection()
 
 const PORT = 3333
 const app = express()

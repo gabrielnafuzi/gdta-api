@@ -1,13 +1,14 @@
-import { createConnection, getConnectionOptions } from 'typeorm'
+import {
+  createConnection as typeormCreateConnection,
+  getConnectionOptions
+} from 'typeorm'
 
-interface Options {
-  host: string
+export const createConnection = async (host = 'database') => {
+  const defaultOptions = await getConnectionOptions()
+
+  return await typeormCreateConnection(
+    Object.assign(defaultOptions, {
+      host
+    })
+  )
 }
-
-void getConnectionOptions().then((options) => {
-  const newOptions = options as Options
-
-  newOptions.host = 'database'
-
-  void createConnection({ ...options })
-})
