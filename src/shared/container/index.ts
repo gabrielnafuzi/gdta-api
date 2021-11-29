@@ -6,6 +6,8 @@ import { IAdressesRepository } from '@/modules/adresses/repositories/IAdressesRe
 import { AdressesRepository } from '@/modules/adresses/repositories/implementations/AddressRepository'
 import { ICategoriesRepository } from '@/modules/categories/repositories/ICategoriesRepository'
 import { CategoriesRepository } from '@/modules/categories/repositories/implementations/CategoriesRepository'
+import { IDishesRepository } from '@/modules/dishes/repositories/IDishesRepository'
+import { DishesRepository } from '@/modules/dishes/repositories/implementations/DishesRepository'
 
 container.registerSingleton<IUsersRepository>(
   'UsersRepository',
@@ -20,4 +22,9 @@ container.registerSingleton<IAdressesRepository>(
 container.registerSingleton<ICategoriesRepository>(
   'CategoriesRepository',
   CategoriesRepository
+)
+
+container.registerSingleton<IDishesRepository>(
+  'DishesRepository',
+  DishesRepository
 )
