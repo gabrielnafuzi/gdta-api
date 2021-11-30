@@ -13,7 +13,7 @@ class FindAllRestaurantsController {
 
     const restaurant = await findAllRestaurantsUseCase.execute(search)
 
-    return response.status(201).json(restaurant)
+    return response.status(200).json(restaurant)
   }
 }
 
