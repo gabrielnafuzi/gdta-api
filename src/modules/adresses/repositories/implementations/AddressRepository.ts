@@ -15,6 +15,8 @@ class AdressesRepository implements IAdressesRepository {
     const address = this.repository.create(data)
 
     await this.repository.save(address)
+
+    return address
   }
 }
 

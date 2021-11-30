@@ -16,6 +16,7 @@
     "@typescript-eslint/no-throw-literal": "off",
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/naming-convention": "off",
     "@typescript-eslint/no-misused-promises": [
       "error",
       {

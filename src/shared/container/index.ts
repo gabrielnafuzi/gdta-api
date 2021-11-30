@@ -8,6 +8,8 @@ import { ICategoriesRepository } from '@/modules/categories/repositories/ICatego
 import { CategoriesRepository } from '@/modules/categories/repositories/implementations/CategoriesRepository'
 import { IDishesRepository } from '@/modules/dishes/repositories/IDishesRepository'
 import { DishesRepository } from '@/modules/dishes/repositories/implementations/DishesRepository'
+import { IRestaurantsRepository } from '@/modules/restaurants/repositories'
+import { RestaurantsRepository } from '@/modules/restaurants/repositories/implementations'
 
 container.registerSingleton<IUsersRepository>(
   'UsersRepository',
@@ -27,4 +29,9 @@ container.registerSingleton<ICategoriesRepository>(
 container.registerSingleton<IDishesRepository>(
   'DishesRepository',
   DishesRepository
+)
+
+container.registerSingleton<IRestaurantsRepository>(
+  'RestaurantsRepository',
+  RestaurantsRepository
 )

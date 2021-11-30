@@ -10,8 +10,10 @@ class CreateAddressUseCase {
     private readonly adressesRepository: IAdressesRepository
   ) {}
 
-  public async execute(data: ICreateAddressDTO): Promise<void> {
-    this.adressesRepository.create(data)
+  public async execute(data: ICreateAddressDTO) {
+    const address = await this.adressesRepository.create(data)
+
+    return address
   }
 }
 
