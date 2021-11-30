@@ -7,17 +7,17 @@ import { CreateDishUseCase } from './CreateDishUseCase'
 
 class CreateDishController {
   async handle(request: Request, response: Response) {
-    const { description, image, name, price, restaurantId } = request.body
+    const { description, image, name, price, restaurant_id } = request.body
 
-    const createdishUseCase = container.resolve(CreateDishUseCase)
+    const createDishUseCase = container.resolve(CreateDishUseCase)
 
     try {
-      const dish = await createdishUseCase.execute({
+      const dish = await createDishUseCase.execute({
         description,
         image,
         name,
         price,
-        restaurant_id: restaurantId
+        restaurant_id
       })
 
       return response.status(201).json(dish)

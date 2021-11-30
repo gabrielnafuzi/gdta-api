@@ -1,5 +1,14 @@
-import { Column, CreateDateColumn, Entity, PrimaryColumn } from 'typeorm'
+import {
+  Column,
+  CreateDateColumn,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  PrimaryColumn
+} from 'typeorm'
 import { v4 as uuidV4 } from 'uuid'
+
+import { Restaurant } from '@/modules/restaurants/entities'
 
 @Entity('dishes')
 class Dish {
@@ -17,6 +26,10 @@ class Dish {
 
   @Column()
   image: string
+
+  @ManyToOne(() => Restaurant, (restaurant) => restaurant.dishes)
+  @JoinColumn({ name: 'restaurant_id' })
+  restaurant: Restaurant
 
   @Column()
   restaurant_id: string

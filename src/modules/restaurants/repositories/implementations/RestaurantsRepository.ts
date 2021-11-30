@@ -30,7 +30,14 @@ class RestaurantsRepository implements IRestaurantsRepository {
     return restaurant
   }
 
-  findById: (id: string) => Promise<Restaurant | undefined>
+  async findById(id: string) {
+    const restaurant = await this.repository.findOne(id, {
+      relations: ['address', 'dishes']
+    })
+
+    return restaurant
+  }
+
   findByNameOrDishesInfo: (search: string) => Promise<Restaurant[]>
 
   async findByName(name: string) {

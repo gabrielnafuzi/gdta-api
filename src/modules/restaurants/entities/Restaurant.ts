@@ -3,12 +3,14 @@ import {
   CreateDateColumn,
   Entity,
   JoinColumn,
+  OneToMany,
   OneToOne,
   PrimaryColumn
 } from 'typeorm'
 import { v4 as uuidV4 } from 'uuid'
 
 import { Address } from '@/modules/adresses/entities/Address'
+import { Dish } from '@/modules/dishes/entities'
 
 @Entity('restaurants')
 class Restaurant {
@@ -33,6 +35,9 @@ class Restaurant {
 
   @Column()
   address_id: string
+
+  @OneToMany(() => Dish, (dish) => dish.restaurant)
+  dishes: Dish[]
 
   @CreateDateColumn()
   created_at: Date
