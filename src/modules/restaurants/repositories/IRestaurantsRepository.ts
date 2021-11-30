@@ -4,7 +4,7 @@ import { Restaurant } from '@/modules/restaurants/entities'
 interface IRestaurantsRepository {
   create: (data: ICreateRestaurantDTO) => Promise<Restaurant>
   findById: (id: string) => Promise<Restaurant | undefined>
-  findByNameOrDishesInfo: (search: string) => Promise<Restaurant[]>
+  findAll: (search: string) => Promise<Restaurant[]>
   findByName: (name: string) => Promise<Restaurant | undefined>
 }
 

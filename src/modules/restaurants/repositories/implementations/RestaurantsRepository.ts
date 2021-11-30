@@ -1,5 +1,5 @@
 import { inject, injectable } from 'tsyringe'
-import { getRepository, Repository } from 'typeorm'
+import { getRepository, Like, Repository, SelectQueryBuilder } from 'typeorm'
 
 import { IAdressesRepository } from '@/modules/adresses/repositories/IAdressesRepository'
 import { ICreateRestaurantDTO } from '@/modules/restaurants/dtos'
@@ -38,7 +38,24 @@ class RestaurantsRepository implements IRestaurantsRepository {
     return restaurant
   }
 
-  findByNameOrDishesInfo: (search: string) => Promise<Restaurant[]>
+  async findAll(search: string) {
+    const query: SelectQueryBuilder<Restaurant> =
+      this.repository.createQueryBuilder('restaurants')
+
+    query.leftJoinAndSelect('restaurants.dishes', 'dishes')
+
+    if (search) {
+      query.where('restaurants.name ILIKE :search', { search: `%${search}%` })
+      query.orWhere('dishes.name ILIKE :search', { search: `%${search}%` })
+      query.orWhere('dishes.description ILIKE :search', {
+        search: `%${search}%`
+      })
+    }
+
+    const restaurants = await query.getMany()
+
+    return restaurants
+  }
 
   async findByName(name: string) {
     const restaurant = await this.repository.findOne({ name })
