@@ -5,6 +5,7 @@ interface IRestaurantsRepository {
   create: (data: ICreateRestaurantDTO) => Promise<Restaurant>
   findById: (id: string) => Promise<Restaurant | undefined>
   findByNameOrDishesInfo: (search: string) => Promise<Restaurant[]>
+  findByName: (name: string) => Promise<Restaurant | undefined>
 }
 
 export { IRestaurantsRepository }
