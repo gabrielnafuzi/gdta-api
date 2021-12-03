@@ -1,5 +1,5 @@
 import { inject, injectable } from 'tsyringe'
-import { getRepository, Like, Repository, SelectQueryBuilder } from 'typeorm'
+import { getRepository, Repository, SelectQueryBuilder } from 'typeorm'
 
 import { IAdressesRepository } from '@/modules/adresses/repositories/IAdressesRepository'
 import { ICreateRestaurantDTO } from '@/modules/restaurants/dtos'

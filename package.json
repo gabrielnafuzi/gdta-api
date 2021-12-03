@@ -7,7 +7,8 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules -r tsconfig-paths/register src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli",
     "seed:user": "ts-node-dev src/database/seed/user.ts",
-    "seed:restaurants": "ts-node-dev src/database/seed/restaurants.ts"
+    "seed:restaurants": "ts-node-dev src/database/seed/restaurants.ts",
+    "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
