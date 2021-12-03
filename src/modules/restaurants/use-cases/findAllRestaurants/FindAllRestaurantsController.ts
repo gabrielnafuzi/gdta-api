@@ -11,9 +11,17 @@ class FindAllRestaurantsController {
       FindAllRestaurantsUseCase
     )
 
-    const restaurant = await findAllRestaurantsUseCase.execute(search as string)
+    const restaurants = await findAllRestaurantsUseCase.execute(
+      search as string
+    )
 
-    return response.status(200).json(restaurant)
+    const restaurantsFormatted = restaurants.map(
+      ({ dishes, ...restaurant }) => ({
+        ...restaurant
+      })
+    )
+
+    return response.status(200).json(restaurantsFormatted)
   }
 }
 
