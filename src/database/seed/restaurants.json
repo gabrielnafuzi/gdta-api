@@ -1,0 +1,448 @@
+[
+  {
+    "address": {
+      "street": "Av Pedro Salomao",
+      "number": "44",
+      "complement": "",
+      "neighborhood": "Santa Maria",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38050-490"
+    },
+    "restaurant": {
+      "name": "Mcdonalds - Santa Maria",
+      "rate": 4.6,
+      "rate_amount": 1200,
+      "delivery_time": "22 - 32 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201901041513_3ec68ed2-db26-4613-827f-ddcdd4777f76.jpg"
+    },
+    "dishes": [
+      {
+        "name": "MCCHICKEN CHEDDAR",
+        "description": "Frango empanado e dourado com o maravilhoso molho cheddar McMelt, cebola shoyo num pão com gergelim",
+        "price": 9.99,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/3ec68ed2-db26-4613-827f-ddcdd4777f76/202111300421_23yt4ifcu0z.png"
+      },
+      {
+        "name": "MCFIESTA",
+        "description": "Hambúrguer de carne, alface, tomate e molho defumado no pão quentinho",
+        "price": 9.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/3ec68ed2-db26-4613-827f-ddcdd4777f76/202111300421_a1sdlx9vpxr.png"
+      },
+      {
+        "name": "MCFRITAS CHEDDAR BACON",
+        "description": "As deliciosas batatas com molho cheddar e pedacinhos de bacon",
+        "price": 13.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/3ec68ed2-db26-4613-827f-ddcdd4777f76/202111231057_upwhnnlakmq.png"
+      },
+      {
+        "name": "SUNDAE MORANGO",
+        "description": "Uma cremosa massa gelada de baunilha coberta com uma divina calda de morango",
+        "price": 8.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/3ec68ed2-db26-4613-827f-ddcdd4777f76/202111300421_xxnc88za9v.png"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Avenida Dom Luiz Maria de Santana",
+      "number": "290",
+      "complement": "",
+      "neighborhood": "Mercês",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38061-080"
+    },
+    "restaurant": {
+      "name": "Di Pan Padaria & Confeitaria",
+      "rate": 4.7,
+      "rate_amount": 215,
+      "delivery_time": "44 - 54 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/a89fafeb-d557-4957-bb09-d3e1d4ec7fe6/201904232128_aubo_i.jpg"
+    },
+    "dishes": [
+      {
+        "name": "PAO DE MEL",
+        "description": "Pao De Mel Unidade",
+        "price": 6.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/a89fafeb-d557-4957-bb09-d3e1d4ec7fe6/202107211241_Y621_i.jpg"
+      },
+      {
+        "name": "PUDIM DE LEITE CONDENSADO",
+        "description": "Um pedaço de pudim.",
+        "price": 6.5,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/a89fafeb-d557-4957-bb09-d3e1d4ec7fe6/202003261319_djXW_.jpeg"
+      },
+      {
+        "name": "PALHA ITALIANA",
+        "description": "Bandeja com aprox. 150g",
+        "price": 9.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/a89fafeb-d557-4957-bb09-d3e1d4ec7fe6/202005071353_GlRA_.jpeg"
+      },
+      {
+        "name": "TORTA HOLANDESA",
+        "description": "Fatia. Aprox. 100g.",
+        "price": 8.55,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/a89fafeb-d557-4957-bb09-d3e1d4ec7fe6/202007150929_cK1H_t.jpg"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Guiomar Rodrigues da Cunha",
+      "number": "472",
+      "complement": "",
+      "neighborhood": "Conjunto Calixto Cecilio",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38050-580"
+    },
+    "restaurant": {
+      "name": "Açaí Beat - Uberaba",
+      "rate": 4.9,
+      "rate_amount": 149,
+      "delivery_time": "60 - 70 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
+    },
+    "dishes": [
+      {
+        "name": "AÇAÍ + MORANGO + LARANJA (500ML)",
+        "description": "Ingredientes batidos",
+        "price": 18.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/91944af7-e13a-4129-93f8-a925c1284a79/201806041125_45421866.jpg"
+      },
+      {
+        "name": "AÇAÍ + LEITE EM PÓ + CREME DE MORANGO (300ML)",
+        "description": "Volume do copo: 300ml.",
+        "price": 19.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/aaf92c41-f3ae-4ba1-9438-5c90dbd0b7f9/202110251228_UMX8_i.jpg"
+      },
+      {
+        "name": "AÇAÍ + BANANA + NUTELLA (500ML)",
+        "description": "Ingredientes batidos",
+        "price": 18.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/91944af7-e13a-4129-93f8-a925c1284a79/201806041126_45421944.jpg"
+      },
+      {
+        "name": "AÇAÍ BEAT BANANA + GRANOLA (G 500ML)",
+        "description": "Não contém glúten, nem lactose e o sabor é incrível!",
+        "price": 15.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/91944af7-e13a-4129-93f8-a925c1284a79/201902201434_45422349.jpg"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Rua Jaime Bilharinho",
+      "number": "51",
+      "complement": "",
+      "neighborhood": "Mercês",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38060-250"
+    },
+    "restaurant": {
+      "name": "Hot Chicken - Mercês",
+      "rate": 4.5,
+      "rate_amount": 259,
+      "delivery_time": "55 - 65 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/4bc814e8-3510-4f08-a1c5-0838f891b452/201904061931_mVtO_l.png"
+    },
+    "dishes": [
+      {
+        "name": "WAFFLE - NUTELLA",
+        "description": "Massa crocante com Nutella",
+        "price": 7.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/4bc814e8-3510-4f08-a1c5-0838f891b452/201912271708_QB51_.jpeg"
+      },
+      {
+        "name": "COMBO FILÉ P ( ALMOÇO )",
+        "description": "Filé (330g) + Batata (150g) (Pote)",
+        "price": 23.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/4bc814e8-3510-4f08-a1c5-0838f891b452/202105252033_VDQF_.jpeg"
+      },
+      {
+        "name": "FILÉ + BACON - P",
+        "description": "FILÉ + BACON - P",
+        "price": 36.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/4bc814e8-3510-4f08-a1c5-0838f891b452/202104122258_2eSw_.jpeg"
+      },
+      {
+        "name": "DUPLO HOT BURGER",
+        "description": "Pão brioche, dois hamburguer 130g, queijo mussarela bacon rústico, salada e molho hot chicken",
+        "price": 30.95,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/4bc814e8-3510-4f08-a1c5-0838f891b452/202005130127_4odH_.jpeg"
+      },
+      {
+        "name": "HOT BURGER CHICKEN",
+        "description": "Pão brioche, tiras de filé de frango empanado, queijo mussarela, bacon, salada molho hot chicken.",
+        "price": 22.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/4bc814e8-3510-4f08-a1c5-0838f891b452/202111162319_T418_i.jpg"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Avenida Djalma Castro Alves",
+      "number": "556",
+      "complement": "",
+      "neighborhood": "Amoroso Costa",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38073-000"
+    },
+    "restaurant": {
+      "name": "Kumiai Delivery",
+      "rate": 4.4,
+      "rate_amount": 73,
+      "delivery_time": "70 - 80 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/491fbf02-46bb-4422-9df8-bb00a652b6b6_KUMIA_IVERY.jpg"
+    },
+    "dishes": [
+      {
+        "name": "40 HOTS E 40 ROLLS",
+        "description": "40 hots variados e 40 sushis variados",
+        "price": 109.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/e9df9af8-cf0c-48cf-b35b-515d53204ab6/201904101213_61751267.PNG"
+      },
+      {
+        "name": "COMBO 60 + 1 COCA DE 1L",
+        "description": "20 hots, 10 ura salmão, 10 hosso kani, 10 hosso salmão e 10 ura skin",
+        "price": 89.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/e9df9af8-cf0c-48cf-b35b-515d53204ab6/202006251337_ywO6_f.jpg"
+      },
+      {
+        "name": "20 ROLLS + 1 TEMAKI",
+        "description": "10 ura salmão, 10 hosso salmão e 1 temaki filadelfia",
+        "price": 59.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/e9df9af8-cf0c-48cf-b35b-515d53204ab6/202102091539_tWBR_.jpeg"
+      },
+      {
+        "name": "40 HOTS FILADELFIA",
+        "description": "Hot empanado na farinha panko, salmão, cream chease, cebolinha e tarê",
+        "price": 69.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/e9df9af8-cf0c-48cf-b35b-515d53204ab6/202105192006_30U5_.jpeg"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Rua Artur Machado",
+      "number": "269",
+      "complement": "",
+      "neighborhood": "Centro",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38010-020"
+    },
+    "restaurant": {
+      "name": "Chiquinho Sorvetes",
+      "rate": 4.7,
+      "rate_amount": 27,
+      "delivery_time": "24 - 34 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/60cadb56-21aa-4713-b6a5-a1074b6e15c2/202103111710_5JP2_i.png"
+    },
+    "dishes": [
+      {
+        "name": "MILK SHAKE NUTELLA",
+        "description": "A mistura perfeita de sorvete misto, Leite Puro e Nutella.",
+        "price": 16.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/99c82cb0-9d37-42e6-a9d9-16296bf820af/202003181855_pzFg_p.jpg"
+      },
+      {
+        "name": "CHIQUINHO NO POTE CHOCOLATE INTENSO",
+        "description": "Pote de 950 ml com o nosso autêntico Sorvete de Chocolate e pedaços macios de Chocolate Trufado.",
+        "price": 37.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/60e71ad4-d33d-416e-a305-7b57f90704b6/202101071110_iJML_.jpeg"
+      },
+      {
+        "name": "AÇAÍ MONTE O SEU - 500ML",
+        "description": "Você acaba de encontrar um açaí cremoso, de qualidade premium e que te dá muita energia.",
+        "price": 27.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/60e71ad4-d33d-416e-a305-7b57f90704b6/202111081104_MV1D_i.jpg"
+      },
+      {
+        "name": "SUNDAE COBERTURA CHOCOLATE",
+        "description": "Sorvete com Cobertura, Amendoim e 1 wafer. Feito pra quem quer um clássico na medida certa.",
+        "price": 12.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/99c82cb0-9d37-42e6-a9d9-16296bf820af/202006261827_wp69_s.png"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Avenida Tonico dos Santos",
+      "number": "668",
+      "complement": "",
+      "neighborhood": "Jardim Induberaba",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38040-000"
+    },
+    "restaurant": {
+      "name": "Churrascaria Zebu",
+      "rate": 4.5,
+      "rate_amount": 254,
+      "delivery_time": "32 - 42 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/28e9f244-0118-419a-8447-1960cef869b2/201912022109_NokV_i.png"
+    },
+    "dishes": [
+      {
+        "name": "MONTE SUA MARMITEX",
+        "description": "Marmitex: Escolha 3 tipos de carnes e 3 acompanhamentos",
+        "price": 32.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/28e9f244-0118-419a-8447-1960cef869b2/202006301302_Etyf_.jpeg"
+      },
+      {
+        "name": "MONTE SUA PORÇÃO DE QUENTES",
+        "description": "Preço por cada 100 g",
+        "price": 5.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/28e9f244-0118-419a-8447-1960cef869b2/201912121340_PNg8_p.jpg"
+      },
+      {
+        "name": "MONTE SUA PORÇÃO DE CARNE ASSADA",
+        "description": "Preço por cada 100 g",
+        "price": 13.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/28e9f244-0118-419a-8447-1960cef869b2/201912121338_Fu6K_p.png"
+      },
+      {
+        "name": "PETIT GATEAU DE CHOCOLATE",
+        "description": "Acompanha 2 bolas de sorvete sabor creme, totalizando 300 g de sobremesa.",
+        "price": 19.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/28e9f244-0118-419a-8447-1960cef869b2/201912121318_4Xli_p.jpg"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Avenida Pará",
+      "number": "104",
+      "complement": "",
+      "neighborhood": "Santa Maria",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38050-100"
+    },
+    "restaurant": {
+      "name": "Bar do Latif",
+      "rate": 4.4,
+      "rate_amount": 140,
+      "delivery_time": "80 - 90 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/65023cb4-9f5d-4e92-8703-a0dece4721b3/202104121924_X7tp_i.jpg"
+    },
+    "dishes": [
+      {
+        "name": "ESFIHA COMBO 2",
+        "description": "10 Esfihas carne com queijo",
+        "price": 79.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/65023cb4-9f5d-4e92-8703-a0dece4721b3/202109011703_M6T7_i.jpg"
+      },
+      {
+        "name": "FILE MIGNON",
+        "description": "Acompanha arroz e fritas ( ate 3 pessoas)",
+        "price": 126.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/65023cb4-9f5d-4e92-8703-a0dece4721b3/202109301549_084C_i.jpg"
+      },
+      {
+        "name": "TABULE",
+        "description": "Vegetariano",
+        "price": 21.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/65023cb4-9f5d-4e92-8703-a0dece4721b3/202109011857_7784_i.jpg"
+      },
+      {
+        "name": "KAFTA DO LATIF",
+        "description": "Carne moída temperada com especiarias árabes levada ao forno com uma fina camada de batata e regada com um delicioso molho de tomate.",
+        "price": 28.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/65023cb4-9f5d-4e92-8703-a0dece4721b3/202109011936_O52W_i.jpg"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Rua Segismundo Mendes",
+      "number": "12",
+      "complement": "",
+      "neighborhood": "Centro",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38010-140"
+    },
+    "restaurant": {
+      "name": "Cascata Sorveteria",
+      "rate": 4.8,
+      "rate_amount": 333,
+      "delivery_time": "34 - 44 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201901242059_cfbaa667-fb6b-4a87-9fef-0a355042ab8a.png"
+    },
+    "dishes": [
+      {
+        "name": "TORTA DOCE SWEET PIE 80G",
+        "description": "Creme de leite, farinha de trigo, manteiga, margarina, açúcar, doce de leite, gema pasteurizada, cobertura de chocolate, chocolate em pó, chantilly, requeijão cremoso, chocolate meio amargo, nozes, fermento em pó. Contém glútem.",
+        "price": 4.99,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/cfbaa667-fb6b-4a87-9fef-0a355042ab8a/201904161219_6C6Y_t.jpg"
+      },
+      {
+        "name": "COLEGIAL",
+        "description": "Duas bolas sorvete, cobertura de caramelo, chocolate, morango, castanha de caju e rolinhos de waffer",
+        "price": 19.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/cfbaa667-fb6b-4a87-9fef-0a355042ab8a/201902111911_casca.jpg"
+      },
+      {
+        "name": "SORVETE TORTA ALEMÃ POTE 200ML CH",
+        "description": "Com cobertura de chocolate",
+        "price": 8.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/cfbaa667-fb6b-4a87-9fef-0a355042ab8a/201902171628_casca.jpg"
+      },
+      {
+        "name": "DISCO DE AÇAÍ",
+        "description": "Copo de Açaí, 1 disco com 4 adicionais em dobro a escolher e mais 50g de Nutella.",
+        "price": 23.0,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/cfbaa667-fb6b-4a87-9fef-0a355042ab8a/202006221350_m89N_.jpeg"
+      }
+    ]
+  },
+  {
+    "address": {
+      "street": "Av. Leopoldino de Oliveira",
+      "number": "5100",
+      "complement": "",
+      "neighborhood": "Centro",
+      "city": "Uberaba",
+      "state": "MG",
+      "zipcode": "38001-970"
+    },
+    "restaurant": {
+      "name": "Burger King",
+      "rate": 4.5,
+      "rate_amount": 607,
+      "delivery_time": "30 - 40 min",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/4677e700-1b0b-462f-a9e8-ac8fc734da93/202102121100_qnCB_i.png"
+    },
+    "dishes": [
+      {
+        "name": "2 SHAKES",
+        "description": "Compre 1 dos nossos deliciosos shakes e por apenas R$2,00 leve outro!",
+        "price": 14.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/096b21e9-d4f2-4c93-beb9-865e34ec4359/202109241701_QLU1_i.jpg"
+      },
+      {
+        "name": "COMBO WHOPPER COSTELA",
+        "description": "Pão com gergelim, maionese, alface, tomate, cebola empanada, molho furioso, queijo derretido e um suculento hambúrguer produzido à base de paleta suína e aroma de costela. Acompanha batata e bebida.",
+        "price": 36.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/6e73dce2-a17f-4aef-9035-1409cea198fe/202111181429_O34V_i.jpg"
+      },
+      {
+        "name": "2 BALDES DE BATATA FRITA + 2 MOLHOS",
+        "description": "Escolha 2 Baldes + 2 Molhos entre Maionese e Baconese.",
+        "price": 32.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/096b21e9-d4f2-4c93-beb9-865e34ec4359/202110051306_JXI0_i.jpg"
+      },
+      {
+        "name": "COMBO MEGA STACKER CHEDDAR 4.0",
+        "description": "Um hambúrguer com quatro carnes bovinas grelhadas de 113g, pão com gergelim, cheddar cremoso, fatias de bacon crocante e o exclusivo molho bk stacker. Acompanha batata frita e bebida.",
+        "price": 59.9,
+        "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/096b21e9-d4f2-4c93-beb9-865e34ec4359/202109241729_K5F1_i.jpg"
+      }
+    ]
+  }
+]
