@@ -5,13 +5,13 @@ import { FindAllRestaurantsUseCase } from './FindAllRestaurantsUseCase'
 
 class FindAllRestaurantsController {
   async handle(request: Request, response: Response) {
-    const { search } = request.body
+    const { search } = request.query
 
     const findAllRestaurantsUseCase = container.resolve(
       FindAllRestaurantsUseCase
     )
 
-    const restaurant = await findAllRestaurantsUseCase.execute(search)
+    const restaurant = await findAllRestaurantsUseCase.execute(search as string)
 
     return response.status(200).json(restaurant)
   }
