@@ -9,8 +9,8 @@ import {
 } from 'typeorm'
 import { v4 as uuidV4 } from 'uuid'
 
-import { Address } from '@/modules/adresses/entities/Address'
-import { Dish } from '@/modules/dishes/entities'
+import { Address } from '../../adresses/entities/Address'
+import { Dish } from '../../dishes/entities'
 
 @Entity('restaurants')
 class Restaurant {
@@ -28,6 +28,9 @@ class Restaurant {
 
   @Column()
   delivery_time: string
+
+  @Column()
+  image_url: string
 
   @OneToOne(() => Address)
   @JoinColumn({ name: 'address_id' })

@@ -7,6 +7,7 @@ interface ICreateRestaurantDTO {
   delivery_time: string
   address: ICreateAddressDTO
   address_id?: string
+  image_url?: string
 }
 
 export { ICreateRestaurantDTO }

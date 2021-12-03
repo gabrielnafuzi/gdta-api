@@ -5,7 +5,8 @@ import { CreateRestaurantUseCase } from './CreateRestaurantUseCase'
 
 class CreateRestaurantController {
   async handle(request: Request, response: Response) {
-    const { name, rate, rate_amount, address, delivery_time } = request.body
+    const { name, rate, rate_amount, address, delivery_time, image_url } =
+      request.body
 
     const createRestaurantUseCase = container.resolve(CreateRestaurantUseCase)
 
@@ -14,7 +15,8 @@ class CreateRestaurantController {
       rate,
       rate_amount,
       address,
-      delivery_time
+      delivery_time,
+      image_url
     })
 
     return response.status(201).json(restaurant)

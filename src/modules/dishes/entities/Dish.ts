@@ -8,7 +8,7 @@ import {
 } from 'typeorm'
 import { v4 as uuidV4 } from 'uuid'
 
-import { Restaurant } from '@/modules/restaurants/entities'
+import { Restaurant } from '../../restaurants/entities'
 
 @Entity('dishes')
 class Dish {
